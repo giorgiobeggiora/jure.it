@@ -1,0 +1,72 @@
+@font-face {
+  font-family:'DiavloLight-Regular';
+  src: url('fontie/DiavloLight-Regular_gdi.eot');
+  src: url('fontie/DiavloLight-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+    url('fontie/DiavloLight-Regular_gdi.woff') format('woff'),
+    url('fontie/DiavloLight-Regular_gdi.ttf') format('truetype'),
+    url('fontie/DiavloLight-Regular_gdi.svg#DiavloLight-Regular') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
+body, html, .app, .content {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  font-family: 'DiavloLight-Regular';
+  font-size: 13px;
+}
+h1 {
+  font-weight: normal;
+  margin: 0;
+}
+img {
+  border: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff url('jure-bg.jpg') 0 100% no-repeat;
+  background-size: auto 95%;
+  max-width: calc(100vh / 1.7);
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 1005;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: right;
+}
+.main-title {
+  font-weight: bold;
+  font-size: 48px;
+}
+.sub-title {
+  font-weight: bold;
+  font-size: 31px;
+  color: silver;
+}
+.footer {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.download {
+  text-align: right;
+}
+.pdf {
+  width: 45px;
+  margin: 0 15px;
+  height: auto;
+}
